@@ -137,6 +137,6 @@ void ConvertColor_BGR2GRAY_BT709_simd(const cv::Mat& src, cv::Mat& dst)
     }
 
     // ! Remove this before writing your optimizations !
-    ConvertColor_BGR2GRAY_BT709_fpt(src, dst);
+    ConvertColor_BGR2GRAY_BT709(src, dst);
     // ! Remove this before writing your optimizations !
 }
